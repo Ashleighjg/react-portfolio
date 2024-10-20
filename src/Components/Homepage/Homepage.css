@@ -1,0 +1,31 @@
+.homepage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.homepage img {
+  margin-top: 150px;
+}
+
+.homepage h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 70px;
+  font-weight: 400;
+  background: linear-gradient(270deg, #e53d00 10%, #ffe900 100% );
+  background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ .homepage h1 span {
+    font-weight: 900;
+ }
+
+ .homepage p {
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+ }

@@ -1,25 +1,28 @@
-:root {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+*{
+  
   line-height: 1.5;
   font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-family: "Vidaloka", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+body{
+  height: 100vh;
+  background-color: #046865;
+  color: #fcfff7;
 }
 
 a {
   font-weight: 500;
-  color: #5ab9c5;
+  color: #fcfff7;
   text-decoration: inherit;
 }
 a:hover {
-  color: #246a73;
+  color: #ffe900;
 }
 
 h1 {

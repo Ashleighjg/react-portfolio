@@ -18,7 +18,7 @@ const Navbar = () => {
         </li>
         <li className="nav-menu-item">
           <a href="#" className="nav-menu-link">
-            Portfolio
+            Projects
           </a>
         </li>
         <li className="nav-menu-item">
