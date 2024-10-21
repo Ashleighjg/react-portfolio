@@ -1,5 +1,5 @@
 import './About.css';
-import profile_img from '../../assets/ashleigh.svg';
+import profile_img from '../../assets/Ashleigh.svg';
 
 const About = () => {
   return (
