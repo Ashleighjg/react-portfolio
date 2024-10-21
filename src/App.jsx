@@ -5,8 +5,8 @@ import Homepage from './Components/Homepage/Homepage';
 import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
-import Resume from './Components/Resume/resume';
-import Footer from './Components/Footer/footer';
+import Resume from './Components/Resume/Resume';
+import Footer from './Components/Footer/Footer';
 
 
 const App = () => {
