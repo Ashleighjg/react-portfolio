@@ -1,39 +1,46 @@
 import './Navbar.css';
 import logo from '../../assets/logo.svg';
+import Navigation from '../../Components/Navigation/Navigation'
+import PropTypes from 'prop-types';
 
-const Navbar = () => {
+
+const Navbar = ({ currentPage, handlePageChange }) => {
   return (
     <div className="navbar">
       <img src={logo} alt="" />
-      <ul className="nav-menu">
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/*<ul className="nav-menu">
         <li className="nav-menu-item">
-          <a href="#" className="nav-menu-link">
+          <a href="#home" className="nav-menu-link">
             Home
           </a>
         </li>
         <li className="nav-menu-item">
-          <a href="#" className="nav-menu-link">
+          <a href="#about" className="nav-menu-link">
             About Me
           </a>
         </li>
         <li className="nav-menu-item">
-          <a href="#" className="nav-menu-link">
+          <a href="#projects" className="nav-menu-link">
             Projects
           </a>
         </li>
         <li className="nav-menu-item">
-          <a href="#" className="nav-menu-link">
+          <a href="#contact" className="nav-menu-link">
             Contact
           </a>
         </li>
         <li className="nav-menu-item">
-          <a href="#" className="nav-menu-link">
+          <a href="#resume" className="nav-menu-link">
             Resume
           </a>
         </li>
-      </ul>
+      </ul>*/}
     </div>
   );
 };
-
+Navbar.propTypes = {
+  currentPage: PropTypes.string.isRequired,
+  handlePageChange: PropTypes.func.isRequired,
+};
 export default Navbar;

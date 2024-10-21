@@ -3,7 +3,7 @@ import profile_img from '../../assets/ashleigh.svg';
 
 const Homepage = () => {
   return (
-    <div className="homepage">
+    <div id="homepage" className="homepage">
       <img src={profile_img} alt="" />
       <h1>
         {' '}

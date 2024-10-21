@@ -23,6 +23,16 @@
     gap: 40px;
 }
 
+.projects-card {
+    box-sizing: border-box;
+    width: 320px;
+    height: 180px;
+    border: solid;
+    border-color: black;
+    transition: 0.3s;
+    cursor: pointer;    
+}
+
 .projects-container img {
     box-sizing: border-box;
     width: 420px;

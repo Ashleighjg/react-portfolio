@@ -1,0 +1,40 @@
+.footer {
+    text-align: center;
+    gap: 10px;
+    background-color: #21a0a0;
+    color: #fff;
+    padding: 20px 0px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-details {
+    padding: 10px;
+    position: relative;
+    width: 100%;
+
+}
+
+
+.footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+  color: #e53d00; 
+}
+
+.footer p {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #046865; 
+}
+
+.icon {
+    font-size: 1.5rem
+}

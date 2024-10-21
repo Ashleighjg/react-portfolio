@@ -1,0 +1,49 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+
+.resume-title {
+    position: relative;
+}
+
+.resume-download {
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.resume-pro {
+    display: inline-block;
+    gap: 80px;
+    align-items: center;
+    
+
+}
+
+.resume-pro h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.pro-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #21a0a0;
+    padding: 20px;
+    align-items: center;
+}
+
+.pro-list li {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: 0.5s;
+}
+
