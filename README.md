@@ -17,7 +17,7 @@ Features
 - Footer with social media links (GitHub, LinkedIn, Stack Overflow).
 - Downloadable resume and a list of technical proficiencies.
 
-([Link to deployed website](https://text-editor-vkti.onrender.com/))
+([Link to deployed website](https://ashleigh-chatman-portfolio.netlify.app/))
 
 ([Code source location](https://github.com/Ashleighjg/react-portfolio))
 
