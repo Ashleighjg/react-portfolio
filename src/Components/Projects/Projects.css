@@ -1,8 +1,9 @@
 .projects {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 80px;
     margin: 80px 170px;
 }
@@ -24,6 +25,7 @@
 }
 
 .projects-card {
+    flex-basis: calc(33.33% - 20px);
     box-sizing: border-box;
     width: 320px;
     height: 180px;
@@ -31,7 +33,13 @@
     border-color: black;
     transition: 0.3s;
     cursor: pointer;    
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 100%;
 }
+
 
 .projects-container img {
     box-sizing: border-box;
@@ -70,3 +78,22 @@
      transition: 0.1s;
 
 }
+
+@media (min-width: 900px) {
+    .project-card {
+        width: 30%; /* Three columns on larger screens */
+    }
+}
+
+
+
+@media (min-width: 600px) {
+    
+    .project-card {
+        width: 45%; /* Two columns on small tablets */
+        margin: 10px;
+    }
+}
+
+
+

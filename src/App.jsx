@@ -30,7 +30,7 @@ const App = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='portfolio'>
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
