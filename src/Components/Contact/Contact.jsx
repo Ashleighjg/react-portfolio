@@ -4,6 +4,7 @@ import mail_icon from '../../assets/mail_icon.svg';
 import call_icon from '../../assets/call_icon.svg';
 import location_icon from '../../assets/location_icon.svg';
 
+
 const Contact = () => {
 const [formState, setFormState] = useState({
   name: '',
@@ -33,7 +34,8 @@ const handleChange = (e) => {
   setFormState({ ...formState, [name]: value });
 };
 
-    return (
+  return (
+      
       <div className="contact">
         <div className="contact-title">
           <h1>Let`s Connect</h1>
@@ -58,7 +60,7 @@ const handleChange = (e) => {
               <br />
               {errorMessage && <p>{errorMessage}</p>}
               <button type="submit" className="contact-submit">
-                Submit
+                Send
               </button>
             </form>
           </div>
@@ -68,9 +70,9 @@ const handleChange = (e) => {
               <div className="info-detail"></div>
               <img src={mail_icon} alt="" /> <p>ashleighjg@gmail.com</p>
               <div className="info-detail"></div>
-              <img src={call_icon} alt="" /> <p>919/919-0000</p>
+              <img src={call_icon} alt="" /> <p>919/207-8201</p>
               <div className="info-detail"></div>
-              <img src={location_icon} alt="" /> <p>Durham, North Carolina</p>
+              <img src={location_icon} alt="" /> <p>Mebane, North Carolina</p>
             </div>
           </div>
         </div>

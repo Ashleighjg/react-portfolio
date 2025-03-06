@@ -1,13 +1,19 @@
 
-import './Footer.css'
+//import './Footer.css'
 //import stackover_icon from '../../assets/stackover_icon.jpg'
 //import github_icon from '../../assets/github_icon.jpg';
 //import linkedIn_icon from '../../assets/linkedIn_icon.jpg';
-
+import { Typography, Container } from '@mui/material';
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <Container sx={{ bgcolor: 'primary.main', py: 3, mt: 'auto' }}>
+      <Typography variant="body2" color="text.secondary" align="center">
+        © {new Date().getFullYear()} Ashleigh Chatman Portfolio. All rights reserved.
+      </Typography>
+    </Container>
+
+    /*<div className="footer">
       <div className="footer-details">
 
         <a href="https://github.com/Ashleighjg" className="icon">
@@ -39,6 +45,7 @@ const Footer = () => {
         </p>
       </div>
     </div>
+    */
   );
 }
 
