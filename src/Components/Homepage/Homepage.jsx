@@ -9,7 +9,7 @@ const Homepage = () => {
       <h1>
         {' '}
         <span> Ashleigh Chatman</span> <br />
-        Web Developer and Data Analyst
+        Full Stack Developer and Data Enthusiast
       </h1>
       <p>
         {' '}
@@ -19,8 +19,8 @@ const Homepage = () => {
         North Carolina.
         <br />
         <br />I am passionate about integrating my analytical skills with
-        cutting edge technology to create innovative solutions that streamline operations,
-        enhance user engagement, and drive business growth.
+        cutting edge technology to create innovative solutions that streamline
+        operations, enhance user engagement, and drive business growth.
       </p>
       <Box sx={{ mt: 4 }}>
         <Button variant="contained" color="primary" size="large">
